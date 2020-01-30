@@ -1,0 +1,57 @@
+body {
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    /*color: #cbcbcb;*/
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none !important;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+#first-configuration-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-first-use {
+    font-size: 1.6rem;
+}
+
+#page-name-input {
+    text-align: center;
+}
+
+.red-border {
+    border-color: #d9534f;
+}
+
+.loading {
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background-size: 100px 82px;
+    background-image: url("../img/loading.svg");
+    margin: 0 auto;
+}
+
+.show {
+    display: block;
+}
