@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient( 109.6deg,  rgba(204,228,247,1) 11.2%, rgba(237,246,250,1) 100.2% );
+}
+
+.no-radius {
+    border-radius: unset !important;
+}
+
+#cms-nav {
+    height: 100%;
+    width: 10%;
+    background-color: #fff;
+    border-right: 1px solid rgba(0,0,0,0.125);
+    position: fixed !important;
+}
+
+.cms-nav-item {
+    border-radius: unset;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cms-nav-item > i {
+    width: 25px;
+}

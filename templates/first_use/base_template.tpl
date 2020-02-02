@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="public/css/first_use.css">
+    <link rel="stylesheet" type="text/css" href="public/css/jquery-ui.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=latin-ext" rel="stylesheet">
 
     <title>Konfiguracja - BeSmartCMS</title>
@@ -29,5 +30,6 @@
     <script src="public/js/jquery.js"></script>
     <script src="public/js/bootstrap.js"></script>
     <script src="public/js/first_use.js"></script>
+    <script src="public/js/jquery-ui.js"></script>
 </body>
 </html>

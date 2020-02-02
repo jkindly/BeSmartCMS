@@ -16,6 +16,6 @@ try {
     $connection['message'] = 'Połączenie z bazą danych zakończyło się pomyślnie!';
 } catch (PDOException $e) {
     $connection['status'] = 'fail';
-    $connection['message'] = 'Niestety, dane są nieprawidłowe, spróbuj ponownie.';
+    $connection['message'] = 'Niestety, wystąpił problem.<br>Błąd: ' . $e->getMessage();
 }
 echo json_encode($connection);

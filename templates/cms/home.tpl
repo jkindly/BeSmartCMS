@@ -1,0 +1,1 @@
+{extends file="cms/base_template.tpl"}

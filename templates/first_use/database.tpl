@@ -12,8 +12,8 @@
     <div class="form-group">
         <input type="password" class="form-control" id="db-password-input" placeholder="Hasło do bazy danych">
     </div>
-    <div class="alert alert-dismissible" style="display: none">
-        <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <div class="alert" style="display: none">
+
     </div>
-    <button type="submit" id="btn-end" class="btn btn-danger mt-5 btn-first-use">Sprawdź połączenie</button>
+    <button type="submit" id="btn-end" class="btn btn-danger btn-first-use">Sprawdź połączenie</button>
 </div>

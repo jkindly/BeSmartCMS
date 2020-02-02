@@ -13,9 +13,6 @@
         <input type="password" class="form-control" id="user-password-input" placeholder="Podaj swoje hasło">
     </div>
     <div class="form-group">
-        <input type="password" class="form-control" id="user-password-repeat-input" placeholder="Potwierdź swoje hasło">
-    </div>
-    <div class="form-group">
         <input type="email" class="form-control" id="user-email-input" placeholder="Wprowadź swój adres e-mail">
         <small id="user-email-input-help" class="form-text">Pamiętaj, że nigdy nie udostępnimy nikomu Twojego adres e-mail.</small>
     </div>
